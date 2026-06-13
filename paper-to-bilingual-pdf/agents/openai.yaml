@@ -1,0 +1,4 @@
+interface:
+  display_name: "纸质书转双语对照PDF"
+  short_description: "把纸质书流程化转成双语 PDF"
+  default_prompt: "Use $paper-to-bilingual-pdf to run or install local MinerU for a PDF when needed, then convert MinerU JSON into page-matched PDFs, reading PDFs, and bilingual PDF handoff instructions."
