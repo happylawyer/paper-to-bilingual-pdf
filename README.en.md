@@ -75,6 +75,10 @@ Or provide the JSON/PDF path and output directories. The default output director
 - `digital` PDF: `$HOME/Desktop/Json转PDF-digital`
 - `reading` PDF: `$HOME/Desktop/reading`
 
+## Other Agents
+
+If you are not using Codex, give this repository to an agent that can read files and run commands, and ask it to read `paper-to-bilingual-pdf/SKILL.md` first. It should prefer local MinerU, then fall back to `references/manual-pipeline.md` if setup or extraction is blocked.
+
 ## Structure
 
 ```text

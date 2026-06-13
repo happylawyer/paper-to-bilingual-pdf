@@ -75,6 +75,10 @@ Use $paper-to-bilingual-pdf to run local MinerU on /path/to/book.pdf, then creat
 - `digital` PDF：`$HOME/Desktop/Json转PDF-digital`
 - `reading` PDF：`$HOME/Desktop/reading`
 
+## 其他 Agent 使用
+
+如果不是 Codex，也可以把这个仓库交给支持读取文件和运行命令的 agent，并要求它先读 `paper-to-bilingual-pdf/SKILL.md` 后执行。默认优先安装或调用本地 MinerU；如果受阻，再按 `references/manual-pipeline.md` 给出人工流程。
+
 ## 目录
 
 ```text
